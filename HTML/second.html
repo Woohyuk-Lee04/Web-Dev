@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My second Website!</title>
+</head>
+<body>
+    <div>
+         <h1>This is the second page!</h1>
+    <a href="first.html">Go back</a>
+    </div>
+   <div>
+     <!--Use GET, not POST-->
+    <form method="GET" action="action.php">
+        First Name : <input type="text" name="firstname"><br>
+        Last Name : <input type="text" name="lastname"><br>
+        Email : <input type="email" name="email" required><br>
+        Password : <input type="password" name="password" minlength="5"><br>
+        Birthday : <input type="date" name="birthday"><br>
+        Gender : 
+        <input type="radio" name="gender" value="Male">Male
+        <input type="radio" name="gender" value="Female">Female
+        <input type="radio" name="gender" value="Other">Other<br>
+        Pets : 
+        <input type="checkbox" name="pet" value="Cat">Cat
+        <input type="checkbox" name="pet" value="Dog">Dog<br>
+        Cars : 
+        <select name="cars">
+            <option value="volvo">Volvo</option>
+            <option value="audi">Audi</option>
+        </select><br>
+        <input type="submit" value="Register">
+        <input type="reset">
+    </form>
+   </div>
+   
+</body>
+</html>
