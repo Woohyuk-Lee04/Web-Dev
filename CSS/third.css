@@ -1,0 +1,19 @@
+/*Selector {
+    Property: value:
+}*/
+
+h2 {
+    color: red;
+    text-align: center;
+    border: 5px solid purple;
+    cursor: pointer;
+}
+
+p {
+    color: pink;
+}
+
+li {
+    list-style: none;
+    display:  inline-block;
+}
