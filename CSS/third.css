@@ -1,8 +1,29 @@
 /*Selector {
     Property: value:
+
+    .class
+    #id
+    *
+    element
+    element, element
+    element element
+    element > element
+    element + element
+    :hover
+    :last-child
+    :first-child
+    !important
+
+    - specificity
+    - importance
+    - source order
 }*/
 
-h2 {
+* {
+    text-align: right;
+}
+
+h2, p{
     color: red;
     text-align: center;
     border: 5px solid purple;
@@ -16,4 +37,58 @@ p {
 li {
     list-style: none;
     display:  inline-block;
+}
+
+.webtext {
+    border: 5px dashed green;
+}
+
+.active {
+    color: red;
+}
+
+img {
+    float: left;
+}
+
+#div1 {
+    background: rgba(0, 0, 255, 0.2);
+}
+#div2 {
+    background: rgba(255, 0, 0, 0.2);
+}
+
+.font {
+    text-transform: uppercase;
+    line-height: 100px;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: "Times New Roman", Georgia;
+}
+
+footer {
+    clear: both;
+    text-align: center;
+}
+
+body {
+    text-align: left;
+}
+.boxmodel {
+    clear: both;
+    border: 5px solid red;
+    display: inline-block;
+    padding: 5px 20px 5px 20px;
+    margin: 5px 20px;
+    
+}
+
+p {
+    font-size: 20px;
+}
+
+span {
+    font-size: 5em;  
+    /* em, rem */
 }
